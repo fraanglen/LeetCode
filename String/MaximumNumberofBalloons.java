@@ -1,4 +1,4 @@
-/*class Solution {
+class Solution {
     public int maxNumberOfBalloons(String text) {
        int arr[]=new int[26];
        for(char ch:text.toCharArray()) {
@@ -12,7 +12,7 @@
         return Math.min(Math.min(Math.min(countB, countA), Math.min(countL, countO)), countN);
     }
 }
-*/
+
 
 class Solution {
     public int maxNumberOfBalloons(String text) {
